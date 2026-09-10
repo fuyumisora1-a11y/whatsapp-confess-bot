@@ -1,0 +1,27 @@
+{
+  "name": "whatsapp-confess-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp Confess Bot - Auto-Reply Template Service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "confess",
+    "auto-reply",
+    "template"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "whatsapp-web.js": "^1.0.0",
+    "qrcode-terminal": "^0.12.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
